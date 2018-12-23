@@ -1,0 +1,30 @@
+{
+  "name": "grillman",
+  "version": "1.0.0",
+  "description": "Project Grillman",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "consign": "^0.1.6",
+    "express": "^4.16.3",
+    "mongoose": "^5.2.18"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcelomansur/grillman.git"
+  },
+  "keywords": [
+    "grillman"
+  ],
+  "author": "marcelo.mansur",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marcelomansur/grillman/issues"
+  },
+  "homepage": "https://github.com/marcelomansur/grillman#readme"
+}
