@@ -14,7 +14,7 @@ app.use(
 
 app.use(bodyParser.json());
 
-new Taoka("Host").with(app);
+new Taoka("Host", { name: String, hostgroup: String, so: String }).with(app);
 
 // consign()
 //   .include("./app/routes")
