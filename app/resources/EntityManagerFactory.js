@@ -9,7 +9,6 @@ class EntityManagerFactory {
     return this.ModelApi.findById(id);
   }
   post(element) {
-    console.log(element);
     return this.ModelApi.create(element);
   }
   put(id, newElement) {

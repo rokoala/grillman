@@ -28,9 +28,7 @@ class ControllerFactory {
       : this._promiseResultHandler(res)(this.EntityManager.find());
   }
   post(req, res) {
-    console.log(req);
     const element = req.body;
-    console.log(element);
     return this._promiseResultHandler(res)(this.EntityManager.post(element));
   }
   put(req, res) {
